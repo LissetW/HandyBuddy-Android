@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/SearchFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Find" />
+    <item
+        android:id="@+id/ChatFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat" />
+    <item
+        android:id="@+id/SavedFragment"
+        android:icon="@drawable/ic_favorite"
+        android:title="Saved" />
+    <item
+        android:id="@+id/HistoryFragment"
+        android:icon="@drawable/ic_history"
+        android:title="History" />
+    <item
+        android:id="@+id/ProfileFragment"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>

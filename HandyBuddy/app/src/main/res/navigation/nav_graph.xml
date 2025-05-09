@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/SearchFragment">
+
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.lnd.handybuddy.ui.SearchFragment"
+        android:label="Search" >
+        <action
+            android:id="@+id/action_SearchFragment_to_ChatFragment"
+            app:destination="@id/ChatFragment" />
+        <action
+            android:id="@+id/action_SearchFragment_to_SavedFragment"
+            app:destination="@id/SavedFragment" />
+        <action
+            android:id="@+id/action_SearchFragment_to_HistoryFragment"
+            app:destination="@id/HistoryFragment" />
+        <action
+            android:id="@+id/action_SearchFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChatFragment"
+        android:name="com.lnd.handybuddy.ui.ChatFragment"
+        android:label="Chat" />
+
+    <fragment
+        android:id="@+id/SavedFragment"
+        android:name="com.lnd.handybuddy.ui.SavedFragment"
+        android:label="Saved" />
+    <fragment
+        android:id="@+id/HistoryFragment"
+        android:name="com.lnd.handybuddy.ui.HistoryFragment"
+        android:label="History" />
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.lnd.handybuddy.ui.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>
